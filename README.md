@@ -1,7 +1,7 @@
 # BMP-Steganography
 A command line tool written in C which can be used to hide mp files within one another
 
-###Command Usage###
+### Command Usage ###
 
 '**--info fileName.bmp**' dumps fileName.bmp's metadata to terminal. 
 
@@ -10,7 +10,8 @@ A command line tool written in C which can be used to hide mp files within one a
 '**--hide decoy.bmp hidden.bmp**' hides 'hidden.bmp' in 'decoy.bmp'. 
 
 
-###File Requirements###
+### File Requirements ### 
+
 1.Decoy images must be larger than or the same size as the hidden image to prevent data loss. 
 
 2.All files must be .BMP files for the tool to work. 
